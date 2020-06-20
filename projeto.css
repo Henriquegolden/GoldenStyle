@@ -1,0 +1,691 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 16px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #f3f3f3;
+}
+
+#navegacao {
+	background: #fff;
+	border-bottom: 1px solid #d8d8d8;
+	height: 45px;
+}
+
+#area {
+	width: 720px;
+	margin: 0 auto;
+}
+
+#logo {
+	float: left;
+}
+
+#menu {
+	float: right;
+	padding: 10px 0;
+}
+
+
+a {
+	text-decoration: none;
+	padding: 5px 10px;
+}
+
+a:link {
+	color: #838383;
+}
+
+a:visited {
+	color: #838383;
+}
+
+
+a:hover {
+	color: #fff;
+	background: #FFD700;
+}
+
+
+
+.verde {
+	color: #FFD700;
+}
+
+
+#zoom{
+    overflow:hidden;
+}
+#zoom img{
+max-width: 200%;
+-moz-transition:all 0.5s;
+-webkit-transform:all 0.5s;
+transition: all 0.5s;
+}
+#zoom:hover img{
+    -moz-:(1.5);
+    -webkit-transform:scale(1.5);
+    transform: scale(1.5);
+
+}
+
+
+#dvslider{
+	border:2px yellow solid;
+	width:1100px;
+	height:350px;
+	position: absolute;
+    left: 110px;
+    top: 80px;
+    padding: 0px;
+    margin: 0px;
+}
+
+#casacos{
+
+  
+	position: absolute;
+    left: 650px;
+    top: 510px;
+    padding: 0px;
+    margin: 0px;
+    color:yellow;
+}
+
+.casaco1{
+
+	position: absolute;
+    left: 180px;
+    top: 600px;
+    padding: 10px;
+    margin: 0px;
+    color:yellow;
+}
+.casaco2{
+
+  
+	position: absolute;
+    left: 580px;
+    top: 600px;
+    padding: 10px;
+    margin: 0px;
+    color:yellow;
+}
+.casaco3{
+
+  
+	position: absolute;
+    left: 980px;
+    top: 600px;
+    padding: 10px;
+    margin: 0px;
+    color:yellow;
+}
+
+.precocasaco1{
+
+   
+	position: absolute;
+    left: 180px;
+    top: 570px;
+    padding: 0px;
+    margin: 0px;
+    color:white;
+}
+.precocasaco2{
+
+	position: absolute;
+    left: 580px;
+    top: 570px;
+    padding: 0px;
+    margin: 0px;
+    color:white;
+}
+.precocasaco3{
+
+   
+	position: absolute;
+    left: 980px;
+    top: 570px;
+    padding: 0px;
+    margin: 0px;
+    color:white;
+}
+
+
+.bermudas{
+
+   
+	position: absolute;
+    left: 640px;
+    top: 1000px;
+    padding: 0px;
+    margin: 0px;
+    color:yellow;
+}
+
+.bermuda1{
+
+   
+	position: absolute;
+    left: 180px;
+    top: 1100px;
+    padding: 10px;
+    margin: 0px;
+    color:yellow;
+}
+.bermuda2{
+
+  
+	position: absolute;
+    left: 580px;
+    top: 1100px;
+    padding: 10px;
+    margin: 0px;
+    color:yellow;
+}
+
+.bermuda3{
+
+	position: absolute;
+    left: 980px;
+    top: 1100px;
+    padding: 10px;
+    margin: 0px;
+    color:yellow;
+}
+
+.erro{
+	width: 250px;
+	height:250px;
+}
+
+.precobermuda1{
+
+   
+	position: absolute;
+    left: 180px;
+    top: 1070px;
+    padding: 0px;
+    margin: 0px;
+    color:white;
+}
+.precobermuda2{
+
+  
+	position: absolute;
+    left: 580px;
+    top: 1070px;
+    padding: 0px;
+    margin: 0px;
+    color:white;
+}
+.precobermuda3{
+
+  
+	position: absolute;
+    left: 980px;
+    top: 1070px;
+    padding: 0px;
+    margin: 0px;
+    color:white;
+}
+
+
+
+.camisas{
+
+ 
+	position: absolute;
+    left: 640px;
+    top: 1510px;
+    padding: 0px;
+    margin: 0px;
+    color:yellow;
+}
+
+.camisa1{
+
+	position: absolute;
+    left: 180px;
+    top: 1570px;
+    padding: 10px;
+    margin: 0px;
+    color:yellow;
+}
+.camisa2{
+
+ 
+	position: absolute;
+    left: 580px;
+    top: 1570px;
+    padding: 10px;
+    margin: 0px;
+    color:yellow;
+}
+
+.camisa3{
+
+  
+	position: absolute;
+    left: 980px;
+    top: 1570px;
+    padding: 10px;
+    margin: 0px;
+    color:yellow;
+}
+
+#precocamisa1{
+
+
+	position: absolute;
+    left: 180px;
+    top: 1540px;
+    padding: 0px;
+    margin: 0px;
+    color:white;
+}
+#precocamisa2{
+
+
+	position: absolute;
+    left: 580px;
+    top: 1540px;
+    padding: 0px;
+    margin: 0px;
+    color:white;
+}
+#precocamisa3{
+
+   
+	position: absolute;
+    left: 980px;
+    top: 1540px;
+    padding: 0px;
+    margin: 0px;
+    color:white;
+}
+
+
+#shorts{
+
+   
+	position: absolute;
+    left: 650px;
+    top: 2000px;
+    padding: 0px;
+    margin: 0px;
+    color:yellow;
+}
+
+.short1{
+
+
+	position: absolute;
+    left: 180px;
+    top: 2070px;
+    padding: 10px;
+    margin: 0px;
+    color:yellow;
+}
+.short2{
+
+
+	position: absolute;
+    left: 580px;
+    top: 2070px;
+    padding: 10px;
+    margin: 0px;
+    color:yellow;
+}
+
+.short3{
+
+
+	position: absolute;
+    left: 980px;
+    top: 2070px;
+    padding: 10px;
+    margin: 0px;
+    color:yellow;
+}
+
+#precoshort1{
+
+  
+	position: absolute;
+    left: 180px;
+    top: 2040px;
+    padding: 0px;
+    margin: 0px;
+    color:white;
+}
+#precoshort2{
+
+
+	position: absolute;
+    left: 580px;
+    top: 2040px;
+    padding: 0px;
+    margin: 0px;
+    color:white;
+}
+#precoshort3{
+
+	position: absolute;
+    left: 980px;
+    top: 2040px;
+    padding: 0px;
+    margin: 0px;
+    color:white;
+}
+
+#casacos6{
+
+   
+	position: absolute;
+    left: 650px;
+    top: 60px;
+    padding: 0px;
+    margin: 0px;
+    color:yellow;
+}
+
+.casaco7{
+   
+	position: absolute;
+    left: 1050px;
+    top: 160px;
+    padding: 0px;
+    margin: 0px;
+    color:yellow;
+}
+
+.casaco8{
+
+	position: absolute;
+    left: 650px;
+    top: 160px;
+    padding: 0px;
+    margin: 0px;
+    color:yellow;
+}
+
+.casaco9{
+
+	position: absolute;
+    left: 190px;
+    top: 110px;
+    padding: 0px;
+    margin: 0px;
+    color:yellow;
+
+}
+
+
+.precocasaco5{
+
+   
+	position: absolute;
+    left: 190px;
+    top: 80px;
+    padding: 0px;
+    margin: 0px;
+    color:white;
+}
+.precocasaco6{
+
+   
+	position: absolute;
+    left: 650px;
+    top: 120px;
+    padding: 0px;
+    margin: 0px;
+    color:white;
+}
+.precocasaco7{
+
+   
+	position: absolute;
+    left: 1050px;
+    top: 130px;
+    padding: 0px;
+    margin: 0px;
+    color:white;
+}
+
+.bermudas6{
+
+  
+	position: absolute;
+    left: 670px;
+    top: 70px;
+    padding: 0px;
+    margin: 0px;
+    color:yellow;
+}
+
+.bermuda7{
+
+
+	position: absolute;
+    left: 170px;
+    top: 170px;
+    padding: 0px;
+    margin: 0px;
+    color:yellow;
+
+}
+
+.bermuda8{
+
+
+	position: absolute;
+    left: 670px;
+    top: 170px;
+    padding: 0px;
+    margin: 0px;
+    color:yellow;
+}
+
+
+.bermuda9{
+
+
+	position: absolute;
+    left: 1070px;
+    top: 170px;
+    padding: 0px;
+    margin: 0px;
+    color:yellow;
+}
+
+.precobermuda4{
+
+	position: absolute;
+    left: 670px;
+    top: 140px;
+    padding: 0px;
+    margin: 0px;
+    color:white;
+}
+
+.precobermuda5{ 
+
+
+	position: absolute;
+    left: 1070px;
+    top: 140px;
+    padding: 0px;
+    margin: 0px;
+    color:white;
+}
+
+.precobermuda6{
+	
+	position: absolute;
+    left: 170px;
+    top: 140px;
+    padding: 0px;
+    margin: 0px;
+    color:white;
+
+}
+
+.camisa6{
+
+
+	position: absolute;
+    left: 670px;
+    top: 70px;
+    padding: 0px;
+    margin: 0px;
+    color:yellow;
+
+}
+
+.camisa7{
+
+
+	position: absolute;
+    left: 170px;
+    top: 170px;
+    padding: 0px;
+    margin: 0px;
+    color:yellow;
+
+}
+
+.camisa8{
+
+	position: absolute;
+    left: 670px;
+    top: 170px;
+    padding: 0px;
+    margin: 0px;
+    color:yellow;
+}
+
+.camisa9{
+
+	position: absolute;
+    left: 1070px;
+    top: 170px;
+    padding: 0px;
+    margin: 0px;
+    color:yellow;
+
+}
+
+#precocamisa4{
+	
+	position: absolute;
+    left: 670px;
+    top: 140px;
+    padding: 0px;
+    margin: 0px;
+    color:white;
+
+}
+
+#precocamisa5{
+
+	position: absolute;
+    left: 1070px;
+    top: 140px;
+    padding: 0px;
+    margin: 0px;
+    color:white;
+}
+
+#precocamisa6{
+	
+	position: absolute;
+    left: 170px;
+    top: 140px;
+    padding: 0px;
+    margin: 0px;
+    color:white;
+}
+
+#shorts5{
+
+ border:2px yellow solid;
+ 	position: absolute;
+    left: 670px;
+    top: 70px;
+    padding: 0px;
+    margin: 0px;
+    color:yellow;
+}
+
+.short6{
+
+	position: absolute;
+    left: 170px;
+    top: 170px;
+    padding: 0px;
+    margin: 0px;
+    color:yellow;
+
+}
+
+.short7{
+
+	position: absolute;
+    left: 670px;
+    top: 170px;
+    padding: 0px;
+    margin: 0px;
+    color:yellow;
+}
+
+.short8{
+
+	position: absolute;
+    left: 1070px;
+    top: 170px;
+    padding: 0px;
+    margin: 0px;
+    color:yellow;
+
+}
+
+#precoshort4{
+
+	position: absolute;
+    left: 670px;
+    top: 140px;
+    padding: 0px;
+    margin: 0px;
+    color:white;
+}
+
+
+#precoshort5{
+
+	position: absolute;
+    left: 1070px;
+    top: 140px;
+    padding: 0px;
+    margin: 0px;
+    color:white;
+}
+
+#precoshort6{
+ 
+	position: absolute;
+    left: 170px;
+    top: 140px;
+    padding: 0px;
+    margin: 0px;
+    color:white;
+}
+
+body {
+background: url(imgs2/background.jpg);
+
+}
